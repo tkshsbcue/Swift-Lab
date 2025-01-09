@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>let item_price:[Int] = [100,200,300,400,500]
+
+
+var total:Int = 0
+
+for x in item_price{
+    total += x
+}
+print("=======Shopping Cart============")
+
+print("The total amount is \(total)")
+var amt_after_tx:Float  = Float(total)-((0.18)*Float((total)))
+
+
+print("Amount after tax \(amt_after_tx)")
+
+
+var amt_after_dsc:Float =
+amt_after_tx - ((0.10)*amt_after_tx)
+
+print("Amount after discount \(amt_after_dsc)")
+
+var amt_after_supercharge: Float  = amt_after_dsc - (0.5*(amt_after_dsc))
+
+print("Amount after supercharge \(amt_after_supercharge)")
+
+
+print("--------Thanks😊------------------")
+
+
+
+
+
+
+</string>
+			<key>ModifiedRange</key>
+			<string>{1, 593}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>
